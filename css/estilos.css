@@ -1,0 +1,173 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+.logo {
+    width: 160px;
+    height: 90px;
+    background: url("../imagenes/logo.svg") center center no-repeat;
+    font-size: 0;
+    position: absolute;
+    top: -10px;
+    left: 10px;
+    z-index: 1;
+}
+
+header {
+    max-width: 100%;
+    position: relative;
+    height: auto;
+    background-image: linear-gradient(to right, #660099, #8a109c);
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+.ulredes {
+    list-style: none;
+    display: inline-block;
+    margin: auto;
+}
+
+ul li a img {
+    transition: 0.3s;
+}
+
+ul li a:hover img {
+    transform: translateY(-10px);
+}
+
+.redes {
+    width: 22px;
+    height: 22px;
+}
+.redes1 {
+    width: 25px;
+    height: 25px;
+}
+
+/*-----------------BANNER SECTION--------------*/
+
+.banner {
+    background-image: linear-gradient(to right, #660099, #8a109c);
+    color: #fff;
+    padding-top: 3%;
+}
+
+.titulobanner {
+    font-weight: 600;
+    margin-top: 20px;
+}
+
+.descargas {
+    width: 130px;
+    height: 130px;
+}
+
+.celu {
+    width: 100px;
+    height: 100px;
+}
+
+.bottom-img {
+    width: 100%;
+    position: relative;
+    top: 5px;
+}
+
+.parrafo {
+    line-height: 26px;
+    letter-spacing: 1px;
+}
+
+
+/*-------------------MAIN SERVICIOS----------------*/
+.textogris {
+    opacity: .7;
+}
+
+.btnservicios {
+    box-shadow: none;
+    padding: 8px 25px;
+    border: none;
+    border-radius: 20px;
+    background-image: linear-gradient(to right, #660099, #8a109c);
+
+}
+
+/*-----------------SECTION CARROUSEL------------------------*/
+.card_table {
+    width: 45vw;
+}
+
+.imgradio {
+    border-radius: 15px;
+    box-shadow: 2px 2px 5px #666;
+}
+
+
+/*--------------------SECTION PORQUE ELEGIRNOS---------------*/
+section article ul li {
+    margin: 10px 0;
+}
+
+
+/*-------------SECTION TESTIMONIOS-----------------*/
+.personas {
+    border-radius: 50px;
+    margin: 0 10px;
+}
+
+.testimonios {
+    border-left: 4px solid #8a109c;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+
+
+/*----------------SECTION SUSCRIBIRSE------------------*/
+.botonsus {
+    border-radius: 20px;
+}
+
+.logovioleta {
+    width: 120px;
+    height: 120px;
+}
+
+.stars {
+    width: 80px;
+    height: 20px;
+    background: url("../imagenes/stars.svg") center center no-repeat;
+    font-size: 0;
+}
+
+
+
+/*-----------------------FOOTER---------------------*/
+.footer {
+    background-image: linear-gradient(to right, #660099, #8a109c);
+    color: #fff;
+}
+
+.top-img {
+    width: 100%;
+    position: relative;
+    top: -5px;
+}
+
+.titulofooter {
+    font-size: 25px;
+}
+
+
+.li {
+    list-style: none;
+}
