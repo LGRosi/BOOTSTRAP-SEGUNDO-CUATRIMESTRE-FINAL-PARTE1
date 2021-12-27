@@ -1,2 +1,3 @@
-# BOOTSTRAP-Segundo-Cuatrimestre-FINAL
-Landing Page - Ecommerce
+# Landing Page de Instrumentos Musicales
+
+### Maquetación de una landing page simulando un sitio de venta de instrumentos musicales.
